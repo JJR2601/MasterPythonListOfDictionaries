@@ -4,13 +4,13 @@ records = [
     {"name": "desk chair", "price": 100},
     {"name": "smart watch", "price": 200},
     {"name": "notebook", "price": 5},
-    {"name": "running shoes", "price": 80}
+    {"name": "running shoes", "price": 80},
 # Employee
     {"name": "john doe", "job title": "sales"},
     {"name": "jane smith", "job title": "human resources"},
     {"name": "mark johnson", "job title": "it"},
     {"name": "lisa wong", "job title": "marketing"},
-    {"name": "paul mcdonald", "job title": "finance"}
+    {"name": "paul mcdonald", "job title": "finance"},
 # Books
     {"title": "the great gastby", "author": " f. scott fitzgerald"},
     {"title": "to kill a mockingbird", "author": "harper lee"},
