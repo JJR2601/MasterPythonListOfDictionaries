@@ -16,7 +16,7 @@ records = [
     {"title": "to kill a mockingbird", "author": "harper lee"},
     {"title": "1984", "author": "george orwell"},
     {"title": "the catcher in the rye", "author": "jd salinger"},
-    {"title"}: "a brief history of time", "author": "stephen hawking"},
+    {"title": "a brief history of time", "author": "stephen hawking"},
 # University
     {"name": "university of the philippines", "location": "quezon city"},
     {"name": "ateneo de manila university", "location": "quezon city"},
