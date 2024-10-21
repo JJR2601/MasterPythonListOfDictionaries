@@ -1,36 +1,36 @@
 records = [
 # Product
-    {"name": "laptop", "price": 750},
-    {"name": "desk chair", "price": 100},
-    {"name": "smart watch", "price": 200},
-    {"name": "notebook", "price": 5},
-    {"name": "running shoes", "price": 80},
+    {"Name": "Laptop", "Price": "750"},
+    {"Name": "Desk chair", "Price": "100"},
+    {"Name": "Smartwatch", "Price": "200"},
+    {"Name": "Notebook", "Price": "5"},
+    {"Name": "Running shoes", "Price": "80"},
 # Employee
-    {"name": "john doe", "job title": "sales"},
-    {"name": "jane smith", "job title": "human resources"},
-    {"name": "mark johnson", "job title": "it"},
-    {"name": "lisa wong", "job title": "marketing"},
-    {"name": "paul mcdonald", "job title": "finance"},
+    {"Name": "John Doe", "Job title": "Sales"},
+    {"Name": "Jane Smith", "Job title": "Human resources"},
+    {"Name": "Mark Johnson", "Job title": "IT"},
+    {"Name": "lisa Wong", "Job title": "Marketing"},
+    {"Name": "Paul Mcdonald", "Job title": "Finance"},
 # Books
-    {"title": "the great gastby", "author": " f. scott fitzgerald"},
-    {"title": "to kill a mockingbird", "author": "harper lee"},
-    {"title": "1984", "author": "george orwell"},
-    {"title": "the catcher in the rye", "author": "jd salinger"},
-    {"title": "a brief history of time", "author": "stephen hawking"},
+    {"Title": "The Great Gastby", "Author": " F. Scott Fitzgerald"},
+    {"Title": "To Kill a Mockingbird", "Author": "Harper Lee"},
+    {"Title": "1984", "Author": "George Orwell"},
+    {"Title": "The Catcher in the Rye", "Author": "J.D. Salinger"},
+    {"Title": "A Brief History of Time", "Author": "Stephen Hawking"},
 # University
-    {"name": "university of the philippines", "location": "quezon city"},
-    {"name": "ateneo de manila university", "location": "quezon city"},
-    {"name": "de la salle university", "location": "manila"},
-    {"name": "university of santo tomas", "location": "manila"},
-    {"name": "polytechnic university of the philippines"},
+    {"Name": "University of the Philippines", "Location": "Quezon city"},
+    {"Name": "Ateneo de Manila University", "Location": "Quezon city"},
+    {"Name": "De La Salle University", "Location": "Manila"},
+    {"Name": "University of Santo Tomas", "Location": "Manila"},
+    {"Name": "Polytechnic University of the Philippines", "Location": "Manila"},
 # Restaurant
-    {"name": "vikings luxury buffet", "cuisine type": "buffet"},
-    {"name": "antonios restaurant", "cuisine type": "fine dining"},
-    {"name": "mesa filipino moderne", "cuisine type": "filipino"},
-    {"name"}: "manam comfort filipino", "cuisine type": "filipino"},
-    {"name": "ramen nagi", "cuisine type": "japanese"}
+    {"Name": "Vikings Luxury Buffet", "Cuisine type": "Buffet"},
+    {"Name": "Antonio's Restaurant", "Cuisine type": "Fine dining"},
+    {"Name": "Mesa Filipino Moderne", "Cuisine type": "Filipino"},
+    {"Name": "Manam Comfort Filipino", "Cuisine type": "Filipino"},
+    {"Name": "Ramen Nagi", "Cuisine type": "Japanese"}
 ]
 for record in records:
     for key, value in record.items():
         print(f"{key}: {value}")
-    print("-" * 30)
+    print("·" * 30)
